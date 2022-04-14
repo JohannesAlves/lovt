@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 697px;
+    margin: 0 auto;
+}
+
+/* --------------------------- MENU DE NAVEGAÇÃO ---------------------- */
+
+nav {
+    box-shadow: 1px 5px 5px rgb(206, 206, 206);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.lovt .you-love {
+
+}
+
+.menu {
+    margin-left: 80%;
+}
+
+/* ------------------------------------------------------------------ */
+
+
+/* --------------------------- CONTEÚDO PRINCIPAL ------------------- */
+
+.carrossel {
+    max-width: 608px;
+    margin: 0 auto;
+    margin-top: 3%;
+    display: flex;
+
+}
+
+.first-home {
+    background-color: #EEEEEE;
+    max-width: 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 6.4%;
+    margin-top: 5%;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 10px;
+    text-align: justify;
+    height: 242px;
+}
+
+.value-1200 {
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.btn-new {
+    align-self: flex-end;
+    margin-top: -10%;
+    width: 56px;
+    height: 21px;
+    border-radius: 12px;
+    border: none;
+    font-size: 19px;
+    color: white;
+    background-color: #51D275;
+}
+
+.mussum-text {
+    margin-top: 10%;
+}
