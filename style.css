@@ -7,6 +7,7 @@
 }
 
 body {
+    font-family: 'Ropa Sans', sans-serif;
     max-width: 697px;
     margin: 0 auto;
 }
@@ -14,21 +15,26 @@ body {
 /* --------------------------- MENU DE NAVEGAÇÃO ---------------------- */
 
 nav {
-    box-shadow: 1px 5px 5px rgb(206, 206, 206);
     height: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    box-shadow: 1px 5px 5px rgb(206, 206, 206);
+    justify-content:space-between;
 
 }
 
-.lovt .you-love {
-
+.logo {
+    margin-left: 20px;
 }
 
 .menu {
-    margin-left: 80%;
+    margin-right: 20px;
 }
+
+
+
+
 
 /* ------------------------------------------------------------------ */
 
@@ -37,44 +43,98 @@ nav {
 
 .carrossel {
     max-width: 608px;
-    margin: 0 auto;
-    margin-top: 3%;
     display: flex;
+    align-items: center;
+    margin-left: 2.3vw;
+    margin-top: 3%;
 
 }
 
-.first-home {
+.casa-principal {
+    width: 100%;
+}
+
+.sell-homes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.first-home, .second-home {
     background-color: #EEEEEE;
     max-width: 256px;
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    margin-left: 6.4%;
     margin-top: 5%;
-    font-family: 'Ropa Sans', sans-serif;
-    font-size: 10px;
-    text-align: justify;
-    height: 242px;
+    height: 250px;
+    font-size: 0.7em;
 }
 
-.value-1200 {
-    align-self: flex-start;
-    margin-left: 5%;
-    margin-top: 5%;
+.casa-industrial-img, .casa-secundaria-img {
+    width: 100%;
 }
 
-.btn-new {
+.value-1200, .value-2000 {
+    margin-top: -7.5%;
+    margin-left: 4%;
+}
+
+.btn-new, .btn-sale {
+    margin-right: 5%;
+    margin-top: 5%;
     align-self: flex-end;
-    margin-top: -10%;
-    width: 56px;
-    height: 21px;
-    border-radius: 12px;
+    width: 60px;
+    height: 22px;
+    border-radius: 10px;
     border: none;
-    font-size: 19px;
-    color: white;
+    font-size: 1.7em;
+    color: rgb(255, 255, 255);
     background-color: #51D275;
 }
 
-.mussum-text {
-    margin-top: 10%;
+.btn-sale {
+    background-color: #DC9730;
 }
+
+.mussum-text, .mussum-text-two {
+    margin-top: 3%;
+    color: #555555;
+    margin-left: 2%;
+    
+
+}
+
+/* --------------------- YOUR STYLE ---------------------- */
+
+.styles {
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.style-industrial {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: .5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #333333;
+    color: #d9d9d9;
+}
+
+.style-industrial-img {
+    opacity: 0.5;
+}
+
+.style-industrial-title {
+
+}
+
+
+
