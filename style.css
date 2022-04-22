@@ -115,26 +115,53 @@ nav {
     flex-direction: column;
 }
 
-.style-industrial {
+.container-industrial, .container-modern, .container-classic {
     display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+
+
+.style-industrial-img, .style-modern-img, .style-classic-img {
+    position: absolute;
+    opacity: 0.6;
+}
+
+.style-industrial-img:hover, .style-modern-img:hover, .style-classic-img:hover {
+    opacity: 1.0;
+}
+
+.style-industrial-title, .style-modern-text, .style-classic-text {
+    margin-top: 25px;
+    margin-left: 250px;
     position: relative;
-    padding: .5rem;
-    text-align: center;
-    font-size: 1.2rem;
+}
+
+/* ------------------------------- FOOTER ---------------------------- */
+
+footer {
+    width: 100%;
+    margin-top: 5%;
+    max-width: 697px;
+    height: 243px;
     background-color: #333333;
-    color: #d9d9d9;
 }
 
-.style-industrial-img {
-    opacity: 0.5;
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.style-industrial-title {
-
+.map, .social-medias {
+    margin-top: 7%;
 }
 
+.link-social {
+    margin-top: 5%;
+}
 
-
+.facebook, .whatsapp {
+    margin-left: 10%;
+}
