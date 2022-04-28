@@ -117,8 +117,12 @@ nav {
 
 .container-industrial, .container-modern, .container-classic {
     display: flex;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 8%;
+}
+
+.style-industrial, .style-modern, .style-classic {
+    width: 100%;
 }
 
 
@@ -132,7 +136,7 @@ nav {
     opacity: 1.0;
 }
 
-.style-industrial-title, .style-modern-text, .style-classic-text {
+.style-industrial-text, .style-modern-text, .style-classic-text {
     margin-top: 25px;
     margin-left: 250px;
     position: relative;
@@ -142,7 +146,7 @@ nav {
 
 footer {
     width: 100%;
-    margin-top: 5%;
+    margin-top: 10%;
     max-width: 697px;
     height: 243px;
     background-color: #333333;
@@ -164,4 +168,56 @@ footer {
 
 .facebook, .whatsapp {
     margin-left: 10%;
+}
+
+@media (max-width: 680px) {
+
+    .style-industrial, .style-modern, .style-classic {
+        width: 50%;
+    }
+    
+
+    .container-industrial, .container-modern, .container-classic {
+        margin-left: 0;
+    }
+    
+.style-industrial-img, .style-modern-img, .style-classic-img {
+    position: absolute;
+    opacity: 0.6;
+    width: 100%;
+}
+
+.style-industrial-text {
+    margin-left: 80%;
+    position: relative;
+}
+
+.style-modern-text, .style-classic-text {
+    margin-left: 160%;
+}
+
+footer {
+    
+    }
+}
+
+@media (max-width: 400px) {
+    .style-industrial-text {
+        margin-top: 5%;
+        margin-left: 80%;
+        position: relative;
+    }
+    
+    .style-modern-text, .style-classic-text {
+        margin-top: 10%;
+        margin-left: 160%;
+    }
+
+    .container-footer {
+        flex-direction: column;
+    }
+
+    footer {
+        height: 100vh;
+    }
 }
